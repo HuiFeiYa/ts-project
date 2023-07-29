@@ -35,7 +35,7 @@ class Person {
     constructor() {
 
     }
-    // @methodDec(false)
+    @methodDec(false)
     toString() {
         return this.person.toString()
     }
